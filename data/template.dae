@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.92.0 commit date:2021-02-24, commit time:16:25, hash:02948a2cab44</authoring_tool>
+    </contributor>
+    <created>2022-07-04T21:52:49</created>
+    <modified>2022-07-04T21:52:49</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="_000-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="_000-material" name="0000">
+      <instance_effect url="#_000-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="kcl-mesh" name="kcl">
+      <mesh>
+        <source id="kcl-mesh-positions">
+          <float_array id="kcl-mesh-positions-array" count="18">-0.02734375 177.0572 -0.05811798 519.5221 177.0572 -299.9665 1280.304 177.0572 -300.0669 1800 177.0572 -1.25542e-5 900 177.0572 -1559.382 900 177.0572 -958.8457</float_array>
+          <technique_common>
+            <accessor source="#kcl-mesh-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="kcl-mesh-normals">
+          <float_array id="kcl-mesh-normals-array" count="9">0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#kcl-mesh-normals-array" count="3" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="kcl-mesh-vertices">
+          <input semantic="POSITION" source="#kcl-mesh-positions"/>
+        </vertices>
+        <triangles material="_000-material" count="6">
+          <input semantic="VERTEX" source="#kcl-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#kcl-mesh-normals" offset="1"/>
+          <p>5 0 3 0 4 0 2 0 0 0 3 0 0 0 5 0 4 0 5 0 2 0 3 0 2 1 1 1 0 1 0 2 1 2 5 2</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="kcl" name="kcl" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 -1.62921e-7 -1 0 0 1 -1.62921e-7 0 0 0 0 1</matrix>
+        <instance_geometry url="#kcl-mesh" name="kcl">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_000-material" target="#_000-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
