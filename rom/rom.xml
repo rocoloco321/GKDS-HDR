@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<NDSProjectFile>
+  <RomInfo>
+    <Header>
+      <GameName>MARIOKARTDS</GameName>
+      <GameCode>AMCP</GameCode>
+      <MakerCode>01</MakerCode>
+      <ProductId>0</ProductId>
+      <DeviceType>0</DeviceType>
+      <DeviceSize>8</DeviceSize>
+      <ReservedA>AAAAAAAAAAAA</ReservedA>
+      <GameVersion>0</GameVersion>
+      <Property>0</Property>
+      <MainEntryAddress>33556480</MainEntryAddress>
+      <MainRamAddress>33554432</MainRamAddress>
+      <SubEntryAddress>37224448</SubEntryAddress>
+      <SubRamAddress>37224448</SubRamAddress>
+      <RomParamA>V2ZBAPgIGAg=</RomParamA>
+      <SecureCRC>56903</SecureCRC>
+      <RomParamB>fg0=</RomParamB>
+      <MainAutoloadDone>33557080</MainAutoloadDone>
+      <SubAutoloadDone>37224792</SubAutoloadDone>
+      <RomParamC>AAAAAAAAAAA=</RomParamC>
+      <ReservedB>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</ReservedB>
+      <LogoData>JP+uUWmaoiE9hIIKhOQJrREki5jAgX8ho1K+GZMJziAQRkpK+Ccx7FjH6DOC486/hfTflM5LCcGUVorAE3Kn/J+ETXOjypphWJejJ/wDmHYjHcdhAwSuVr84hABApw79/1L+A2+VMPGX+8CFYNaAJaljvgMBTjji+aI0/7s+A0R4AJDLiBE6lGXAfGOH8Dyv1iXkizgKrHIh1PgH</LogoData>
+    </Header>
+    <NitroFooter>
+      <NitroCode>3737126433</NitroCode>
+      <_start_ModuleParamsOffset>2892</_start_ModuleParamsOffset>
+      <Unknown>1503984</Unknown>
+    </NitroFooter>
+    <ARM9Ovt>
+      <RomOVT Id="0" Flag="Compressed AuthenticationCode">
+        <RamAddress>35128544</RamAddress>
+        <RamSize>214912</RamSize>
+        <BssSize>12096</BssSize>
+        <SinitInit>35325924</SinitInit>
+        <SinitInitEnd>35325928</SinitInitEnd>
+        <Compressed>152364</Compressed>
+      </RomOVT>
+      <RomOVT Id="1" Flag="Compressed AuthenticationCode">
+        <RamAddress>35128544</RamAddress>
+        <RamSize>169216</RamSize>
+        <BssSize>133728</BssSize>
+        <SinitInit>35288708</SinitInit>
+        <SinitInitEnd>35288712</SinitInitEnd>
+        <Compressed>106840</Compressed>
+      </RomOVT>
+      <RomOVT Id="2" Flag="Compressed AuthenticationCode">
+        <RamAddress>35128544</RamAddress>
+        <RamSize>32</RamSize>
+        <BssSize>327680</BssSize>
+        <SinitInit>35128544</SinitInit>
+        <SinitInitEnd>35128548</SinitInitEnd>
+        <Compressed>20</Compressed>
+      </RomOVT>
+      <RomOVT Id="3" Flag="Compressed AuthenticationCode">
+        <RamAddress>35355552</RamAddress>
+        <RamSize>131232</RamSize>
+        <BssSize>9984</BssSize>
+        <SinitInit>35481588</SinitInit>
+        <SinitInitEnd>35481592</SinitInitEnd>
+        <Compressed>91340</Compressed>
+      </RomOVT>
+    </ARM9Ovt>
+    <ARM7Ovt />
+    <Banner>
+      <Header>
+        <Version>1</Version>
+        <ReservedA>0</ReservedA>
+        <ReservedB>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</ReservedB>
+      </Header>
+      <Banner>
+        <Image>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAESEAEDFCADBDEwA0RFUARFVVAFVlhwAAAAARAAAAEhEAACQTAQAxNAMAVURDAFVVRAB4VlUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAANAAAADgAAAA0ABVmJoAZSnLAHzclgCJicwCiGfIDYBpZg7uipntIq1mqYlVALySVgBpzccAzJmYAIx2iCBmlgjQmaju4GbaIt4AAAAAAAAAAAAAAAAAAAAAAgAAAA0AAAAOAAAADQAAAAAAAOIAAADu7u7u6qqqqqd3d3en5+7udqeqqmanqqpm3tJtRNrtZrvqVRERehEhIWcxEjNnMz0SVjPR0lZEMzNE1i3tu2berRERVa4SEhGnMyETdiHTM3YtHTNlMzNEZS4AAADuAAAAru7u7nqqqqp6d3d3Z+7ufmaqqnpmqqp6d3fX5nd33mJ3590tZ97dImfm3d1mZmZmZmZmBgAAAABaVVVVVlVmZiIiIiIiIiIi3d3d3WZmZmYAAAAAAAAAAFVVVaVmZlVlIiIiIiIiIiLd3d3dZmZmZgAAAAAAAAAAbn13dybtd3fS3X53It3tdt3dbnZmZmZmYGZmZgAAAAA=</Image>
+        <Pltt>AH5/Lf9/GwAXAC8AghgFJbQlWjKGMQFV/0I6ZxBCAAA=</Pltt>
+        <GameName>TQBBAFIASQBPACAASwBBAFIAVAAgAEQAUwAKAE4AaQBuAHQAZQBuAGQAbwA=</GameName>
+        <GameName>TQBBAFIASQBPACAASwBBAFIAVAAgAEQAUwAKAE4AaQBuAHQAZQBuAGQAbwA=</GameName>
+        <GameName>TQBBAFIASQBPACAASwBBAFIAVAAgAEQAUwAKAE4AaQBuAHQAZQBuAGQAbwA=</GameName>
+        <GameName>TQBBAFIASQBPACAASwBBAFIAVAAgAEQAUwAKAE4AaQBuAHQAZQBuAGQAbwA=</GameName>
+        <GameName>TQBBAFIASQBPACAASwBBAFIAVAAgAEQAUwAKAE4AaQBuAHQAZQBuAGQAbwA=</GameName>
+        <GameName>TQBBAFIASQBPACAASwBBAFIAVAAgAEQAUwAKAE4AaQBuAHQAZQBuAGQAbwA=</GameName>
+      </Banner>
+    </Banner>
+    <ExternalARM9Path>../src/Base_ARM9/arm9.bin</ExternalARM9Path>
+    <RSASignature>YWMBAF1LmpKUQ8OLbrCT7+Izo37HAEgMU/1tG8Yg5Xevg9vHYh26Oc32X6+5yAh5m1T6Nl5HQ+KfVffW0vyEa/r0hhITZ/RTCgDO7oAHkDXJe8xH7Bfh304rwXafMUX5IKefgifFTWgnyZMOOd5/4UDx1fMKhD+19h1416UIcIQHwKl7+e1UAw==</RSASignature>
+  </RomInfo>
+</NDSProjectFile>

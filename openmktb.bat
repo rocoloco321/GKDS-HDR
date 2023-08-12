@@ -1,0 +1,1 @@
+tools\mktb\MarioKartToolbox.exe "../../rom/rom.xml"

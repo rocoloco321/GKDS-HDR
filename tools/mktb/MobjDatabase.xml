@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjiDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Objects>
+    <Object MobjId="1" Name="BeachWater" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>beach_water.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="2" Name="FallsWaterDst" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="Int16" Name="KCL Index" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="50cc Speed" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="100cc Speed" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="150cc Speed" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="3" Name="TownWater" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>town_water.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="5" Name="WaterSplash" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>water_efct.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="6" Name="YoshiWater" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>yoshi_water.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="8" Name="AmbientSfxEmitter" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="9" Name="HyudoroWater" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>hyudoro_water.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="10" Name="BirdSfxEmitter" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="11" Name="MobjId11" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="12" Name="MiniStage3Water" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>mini_stage3_water.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="13" Name="Puddle" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>puddle.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="14" Name="LavaSplash" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>water_efct.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="15" Name="HyudoroWaterSplash" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>water_efct.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="16" Name="MrStageSteam" RouteRequired="false" Category="Water">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="101" Name="Itembox" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="false" Type="Int16" Name="Contents" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="102" Name="Wall" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="103" Name="Woodbox1" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>woodbox1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="104" Name="Coin" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>coin.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="105" Name="BalloonController" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="106" Name="Shine" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="107" Name="ShineController" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>shine16.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="108" Name="Balloon" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="110" Name="MissionGate" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>MissionGate.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="111" Name="UnkItembox" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="112" Name="ShineBalloon" RouteRequired="false" Category="Misc">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="201" Name="MoveItembox" RouteRequired="true" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>itembox.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="202" Name="KoopaBlock" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Speed" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>koopa_block.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="203" Name="Gear" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>gear.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="204" Name="Bridge" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>bridge.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="205" Name="SecondHand" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Base Velocity" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Start/Stop Frame Count" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Move Frame Count" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Wait Frame Count" />
+          <Argument Hide="false" Hex="false" Type="Boolean" Name="Reverse Base Velocity" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>second_hand.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="206" Name="TestCylinder" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>test_cylinder.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="207" Name="Pendulum" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Weight" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Swing Range" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 7" />
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>pendulum.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="208" Name="RotaryRoom" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>rotary_room.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="209" Name="RotaryBridge" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>rotary_bridge.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="210" Name="Dram" RouteRequired="false" Category="Obstacle">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="Int16" Name="Speed 1" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Spin Frame Count" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Wait Frame Count" />
+          <Argument Hide="false" Hex="false" Type="UInt16" Name="Start/Stop Frame Count" />
+          <Argument Hide="false" Hex="false" Type="Int16" Name="Speed 2" />
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>dram.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="301" Name="BeachTree1Nocol" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>BeachTree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="302" Name="BeachTree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>BeachTree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="303" Name="EarthenPipe" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>earthen_pipe.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="304" Name="OpaTree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>opa_tree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="305" Name="OlgPipe1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>OlgPipe1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="306" Name="OlgMush1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>OlgMush1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="307" Name="Of6Yoshi1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>of6yoshi1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="308" Name="Cow" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="Int16" Name="NSBTP Frame" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>cow.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="309" Name="NsCannon1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>NsKiller.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="310" Name="MiniDokan" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>mini_dokan.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="312" Name="GardenTree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>GardenTree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="314" Name="CrossTree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>CrossTree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="315" Name="Teresa" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="316" Name="Bakubaku" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>bakubaku.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="317" Name="TeresaController" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>teresa.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="318" Name="BankTree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>Bank_Tree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="319" Name="GardenTree1Nocol" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>GardenTree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="320" Name="Chandelier" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>chandelier.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="321" Name="TownTree1Nocol" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="322" Name="MarioTree3" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>MarioTree3.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="323" Name="SnowTree1Nocol" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="325" Name="TownTree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>TownTree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="326" Name="SnowTree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>Snow_Tree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="327" Name="DeTree1Nocol" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="328" Name="DeTree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>DeTree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="329" Name="BankEgg1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>BankEgg1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="331" Name="KinoHouse1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>KinoHouse1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="332" Name="KinoHouse2" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>KinoHouse2.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="333" Name="KinoMount1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>KinoMount1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="334" Name="KinoMount2" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>KinoMount2.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="335" Name="OlaTree1C" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>olaTree1c.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="336" Name="OsaTree1C" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>osaTree1c.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="337" Name="Picture1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>picture1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="338" Name="Picture2" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>picture2.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="339" Name="Om6Tree1" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>om6Tree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="340" Name="RainStar" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>RainStar.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="341" Name="Of6TreeNocol" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>of6Tree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="342" Name="Of6Tree" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>of6Tree1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="343" Name="TownMonte" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="Int16" Name="Sound Variable" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>TownMonte.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="344" Name="Airship" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>airship.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="345" Name="StopSign" RouteRequired="false" Category="Scenery">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>StopSign.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="401" Name="Kuribo" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="Int16" Name="Speed" />
+          <Argument Hide="false" Hex="false" Type="Boolean" Name="Cannot Respawn" />
+          <Argument Hide="false" Hex="false" Type="Boolean" Name="Spawn Shroom" />
+          <Argument Hide="false" Hex="false" Type="Int16" Name="Unknown Path Point" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>kuribo.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="402" Name="Rock" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>rock.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="403" Name="Dossun" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="false" Type="Boolean" Name="Move Horizontally" />
+          <Argument Hide="false" Hex="false" Type="Int16" Name="Initial Path Point" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="true" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>dossun.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="404" Name="Stubbed404" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="405" Name="Bus" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>bus_a.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="406" Name="WanwanFixed" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>wanwan.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="407" Name="WanwanChain" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="408" Name="MkdEfBubble" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>mkd_ef_bubble.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="409" Name="Choropu" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>choropu.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="410" Name="Car" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>car_a.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="411" Name="Pukupuku" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>pukupuku.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="412" Name="Truck" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>truck_a.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="413" Name="Sman" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>sman.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="414" Name="Kanoke64" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>kanoke_64.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="415" Name="Basabasa" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="416" Name="BasabasaSpawner" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>basabasa.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="417" Name="NsKiller1" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>NsCannon1.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="418" Name="NsKiller2" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="419" Name="MoveTree" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>move_tree.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="420" Name="MkdEfBurner" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>mkd_ef_burner.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="421" Name="WanwanMove" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>wanwan.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="422" Name="ObPakkun" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>ob_pakkun_sf.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="423" Name="Poo" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>poo.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="424" Name="Bound" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>bound.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="425" Name="Flipper" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>flipper.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="426" Name="Pakkun" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>Pakkun.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="427" Name="PakkunFire" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="428" Name="Crab" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>crab.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="429" Name="Sun" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>sun.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="430" Name="SunFireSnake" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="431" Name="Fireball2" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>fireball2.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="432" Name="IronBall" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>IronBall.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="433" Name="Rock2" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>rock2.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="434" Name="Sanbo" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>sanbo.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="435" Name="IronBallNocol" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>IronBall.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="436" Name="Cream" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>cream.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+    <Object MobjId="437" Name="Berry" RouteRequired="false" Category="Enemy">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+        </Entries>
+      </Arguments>
+      <RequiredFiles>
+        <string>berry.nsbmd</string>
+      </RequiredFiles>
+    </Object>
+
+    <Object MobjId="501" Name="BossDonketu" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="502" Name="KingIceDonketu" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="503" Name="KuriKing" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="504" Name="BombKing" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="507" Name="IwanteL" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="508" Name="Hanachan" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="509" Name="KingTeresa" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="510" Name="HanachanBodyPart" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="511" Name="Unk511MrParticle" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+    <Object MobjId="512" Name="IwanteController" RouteRequired="false" Category="Boss">
+      <Arguments>
+        <Entries>
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 1" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 2" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 3" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 4" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 5" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 6" />
+          <Argument Hide="false" Hex="true" Type="UInt16" Name="Setting 7" />
+
+        </Entries>
+      </Arguments>
+    </Object>
+  </Objects>
+</ObjiDatabase>
