@@ -1,7 +1,6 @@
 /* NCPatcher: Auto-generated linker script */
 
 INPUT (
-	"build\source\exceptionhandler.c.o"
 	"build\source\globalmap.c.o"
 	"build\source\mkds.c.o"
 	"build\source\rob.c.o"
@@ -41,7 +40,3 @@ SECTIONS {
 
 	/DISCARD/ : {*(.*)}
 }
-
-EXTERN (
-	ncp_jump_0x020366D0
-)
